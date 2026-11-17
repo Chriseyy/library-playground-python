@@ -7,7 +7,12 @@ authors = [
     { name = "Chris", email = "christian.naibaf@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "jupyter>=1.1.1",
+    "pandas>=3.1.1",
+    "pydantic>=2.14.3",
+    "pytest>=9.2.0",
+]
 
 [project.scripts]
 library-playground-python = "library_playground_python:main"
